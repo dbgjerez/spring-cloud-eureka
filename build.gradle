@@ -12,10 +12,6 @@ buildscript {
 	}
 }
 
-test {
-	systemProperty 'user.timezone', 'Europe/Madrid'
-}
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
